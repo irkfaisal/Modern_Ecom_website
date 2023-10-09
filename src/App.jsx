@@ -1,15 +1,13 @@
 import React from 'react'
+import Nav from './Components/Nav'
 
-
-function App() {
-
+const App = () => {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </>
+    <main className='relative'>
+      <Nav />
+    </main>
   )
 }
 
 export default App
+
