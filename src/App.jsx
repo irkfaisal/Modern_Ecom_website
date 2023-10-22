@@ -1,6 +1,6 @@
 import React from 'react'
 import Nav from './Components/Nav'
-import { Hero } from './Sections'
+import { Hero, PopularProducts, SuperQuality } from './Sections'
 
 const App = () => {
   return (
@@ -8,6 +8,12 @@ const App = () => {
       <Nav />
       <section className='xl:padding-l wide:padding-r padding-b'>
         <Hero />
+      </section>
+      <section className='padding'>
+        <PopularProducts />
+      </section>
+      <section className='padding'>
+        <SuperQuality />
       </section>
     </main>
 
