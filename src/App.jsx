@@ -1,6 +1,5 @@
-import React from 'react'
 import Nav from './Components/Nav'
-import { Hero, PopularProducts, Services, SpecialOffer, SuperQuality } from './Sections'
+import { CustomerReviews, Footer, Hero, PopularProducts, Services, SpecialOffer, Subscribe, SuperQuality } from './Sections'
 
 const App = () => {
   return (
@@ -16,10 +15,19 @@ const App = () => {
         <SuperQuality />
       </section>
       <section className='padding-x py-10'>
-        <Services/>
+        <Services />
       </section>
       <section className='padding'>
         <SpecialOffer />
+      </section>
+      <section className='bg-pale-blue padding'>
+        <CustomerReviews />
+      </section>
+      <section className='padding-x sm:py-32 py-16 w-full'>
+        <Subscribe />
+      </section>
+      <section className=' bg-black padding-x padding-t pb-8'>
+        <Footer />
       </section>
     </main>
 
